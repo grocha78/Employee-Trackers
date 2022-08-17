@@ -1,7 +1,25 @@
 {
-  "dependencies": {
-    "console.table": "^0.10.0",
-    "inquirer": "^8.2.4",
-    "mysql2": "^2.3.3"
+  "name": "employee-trackers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+},
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/grocha78/Employee-Trackers.git"
+},
+"author": "",
+"license": "ISC",
+"bugs": {
+  "url": "https://github.com/grocha78/Employee-Trackers/issues"
+},
+"homepage": "https://github.com/grocha78/Employee-Trackers#readme",
+"dependencies": {
+  "console.table": "^0.10.0",
+  "inquirer": "^8.2.4",
+  "mysql2": "^2.3.3"
   }
 }
